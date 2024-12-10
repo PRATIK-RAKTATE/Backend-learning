@@ -2,8 +2,9 @@
   "name": "backendproject",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodeman scr/index.js"
   },
   "keywords": [
     "chai",
@@ -11,5 +12,8 @@
   ],
   "author": "pratik raktate",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodeman": "^1.1.2"
+  }
 }
